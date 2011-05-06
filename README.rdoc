@@ -26,9 +26,8 @@ Call the helper in your views
 
 The following locales are already defined, but you are free to modify them:
 
-madmimi_subscribe_form.enter_email: "Enter your email"
-
-madmimi_subscribe_form.success_message: "You have been successfully added to the newsletter"  
+  madmimi_subscribe_form.enter_email: "Enter your email"
+  madmimi_subscribe_form.success_message: "You have been successfully added to the newsletter"  
 
 == Form
 
