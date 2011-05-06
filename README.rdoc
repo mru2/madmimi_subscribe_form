@@ -1,0 +1,37 @@
+= MadmimiSubscribeForm
+
+This gem adds the helper madmimi_subscribe_form, which generates a form for subscribing to a newsletter
+
+= Installation
+
+Add the gem to your Gemfile
+
+  gem 'madmimi_subscribe_form'
+  
+Create a file in config/initializers with your Madmimi credentials, and the newsletter name
+
+  MadmimiSubscribeForm.config do |config|
+    config.email = "your_email"
+    config.api_key = "your_api_key"
+    config.newsletter = "your_newsletter_name"
+  end  
+
+Call the helper in your views
+
+  <%= madmimi_subscribe_form %>
+
+= Customisation
+
+== Locales
+
+The following locales are already defined, but you are free to modify them:
+
+madmimi_subscribe_form.enter_email: "Enter your email"
+
+madmimi_subscribe_form.success_message: "You have been successfully added to the newsletter"  
+
+== Form
+
+The included form is minimalistic, but you can replace it by overwriting the partial app/views/shared/_madmimi_subscribe_form.html.erb
+
+Basically, all you need is a POST request to /newsletter/subscribe, with an "email" param.
