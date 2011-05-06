@@ -5,7 +5,7 @@ Gem::Specification.new do |s|
   s.summary = "A 'subscribe to newsletter' helper for rails, integrated with madmimi."
   s.description = "A 'subscribe to newsletter' helper for rails, integrated with madmimi."
   s.files = Dir["{app,lib,config}/**/*"] + ["MIT-LICENSE", "Rakefile", "Gemfile", "README.rdoc"]
-  s.version = "0.0.1"
+  s.version = "0.0.2"
   s.homepage = "https://github.com/MrRuru/madmimi_subscribe_form"
   s.authors = ["David Ruyer", "Benjamin Roth"]
   s.email = ["david.ruyer@gmail.com", "benjamin.roth@peachyweb.com"]  
