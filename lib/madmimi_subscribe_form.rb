@@ -1,4 +1,5 @@
 require 'application_helper'
+require 'madmimi'
 
 module MadmimiSubscribeForm
   class Engine < Rails::Engine
